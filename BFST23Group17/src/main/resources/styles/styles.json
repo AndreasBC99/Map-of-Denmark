@@ -1,0 +1,573 @@
+{
+  "bounds": {
+    "21": 0.01,
+    "20": 4.4,
+    "19": 1.3,
+    "18": 0.75,
+    "17": 0.38,
+    "16": 0.035,
+    "15": 0.025,
+
+    "7": 0.034,
+
+    "5": 0.113,
+    "6": 0.253,
+
+    "8": 0.17,
+    "9": 0.6,
+    "2": 1.3
+  },
+  "theme":{
+    "icon": {
+      "oneway": {
+        "icon": "\uf062",
+        "iconColor": "darkgrey",
+        "visible": true
+      }
+    },
+    "highway": {
+      "motorway": {
+        "isRoad": true,
+        "color": "brightred",
+        "layer": 20,
+        "priority": 1,
+        "width": 4,
+        "shouldFill": false,
+        "visible": true
+      },
+      "primary": {
+        "isRoad": true,
+        "color": "darkerorange",
+        "layer": 19,
+        "priority": 1,
+        "width": 4,
+        "shouldFill": false,
+        "visible": true
+      },
+      "secondary": {
+        "isRoad": true,
+        "color": "lightyellow",
+        "layer": 18,
+        "width": 4,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "tertiary": {
+        "isRoad": true,
+        "color": "white",
+        "layer": 17,
+        "width": 3.0,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "trunk": {
+        "isRoad": true,
+        "color": "darkerorange",
+        "layer": 19,
+        "width": 3.0,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "service": {
+        "isRoad": true,
+        "color": "white",
+        "layer": 16,
+        "width": 3.0,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "unclassified": {
+        "isRoad": true,
+        "color": "white",
+        "width": 3.0,
+        "layer": 16,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "road": {
+        "isRoad": true,
+        "color": "white",
+        "width": 3.0,
+        "layer": 16,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "residential": {
+        "isRoad": true,
+        "color": "white",
+        "width": 3.0,
+        "layer": 16,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "living_street": {
+        "isRoad": true,
+        "color": "streetgrey",
+        "width": 3.0,
+        "layer": 16,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "footway":{
+        "isRoad": true,
+        "color": "salmonpink",
+        "dashed": "true",
+        "layer": 15,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "track": {
+        "isRoad": true,
+        "color": "yellowybrown",
+        "dashed": "true",
+        "layer": 16,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "path": {
+        "isRoad": true,
+        "color": "salmonpink",
+        "dashed": "true",
+        "layer": 16,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "pedestrian":{
+        "isRoad": true,
+        "borderColor": "darkgrey",
+        "fillColor":"almostinvisiblegrey",
+        "layer": 16,
+        "shouldFill": false,
+        "priority": 1,
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "place": {
+      "island": {
+        "borderColor": "amethyst",
+        "fillColor": "eveninvisiblergrey",
+        "innerFillColor": "eveninvisiblergrey",
+        "layer": 1,
+        "priority": 1,
+        "nodeSkip": {
+          "4.3": 100,
+          "0.57": 25,
+          "0.38": 5,
+          "0.17": 2
+        },
+        "visible": true
+      },
+      "islet": {
+        "borderColor": "amethyst",
+        "fillColor": "eveninvisiblergrey",
+        "innerFillColor": "eveninvisiblergrey",
+        "layer": 1,
+        "priority": 1,
+        "nodeSkip": {
+          "4.3": 100,
+          "0.57": 25,
+          "0.38": 5,
+          "0.17": 2
+        },
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "natural": {
+      "peninsula": {
+        "borderColor": "amethyst",
+        "fillColor": "eveninvisiblergrey",
+        "innerFillColor": "eveninvisiblergrey",
+        "layer": 1,
+        "priority": 1,
+        "nodeSkip": {
+          "4.3": 100,
+          "0.57": 25,
+          "0.38": 5,
+          "0.17": 2
+        },
+        "visible": true
+      },
+      "coastline": {
+        "borderColor": "amethyst",
+        "fillColor": "eveninvisiblergrey",
+        "innerFillColor": "eveninvisiblergrey",
+        "layer": 1,
+        "priority": 1,
+        "nodeSkip": {
+          "4.3": 100,
+          "0.57": 25,
+          "0.38": 5,
+          "0.17": 2
+        },
+        "visible": true
+      },
+      "water": {
+        "color": "lighterblue",
+        "layer": 8,
+        "priority": 2,
+        "visible": true
+      },
+      "bay": {
+        "fillColor": "lighterblue",
+        "layer": 2,
+        "priority": 1,
+        "visible": false
+      },
+      "reef": {
+        "color": "lighterblue",
+        "layer": 2,
+        "priority": 1,
+        "visible": true
+      },
+      "isthmus": {
+        "borderColor": "amethyst",
+        "fillColor": "eveninvisiblergrey",
+        "innerFillColor": "eveninvisiblergrey",
+        "layer": 1,
+        "priority": 1,
+        "nodeSkip": {
+          "4.3": 100,
+          "0.57": 25,
+          "0.38": 5,
+          "0.17": 2
+        },
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "water": {
+      "lake": {
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "river": {
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "canal": {
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "ditch": {
+        "color": "lighterblue",
+        "layer": 8,
+        "priority": 1,
+        "visible": true
+      },
+      "reservoir": {
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "pond": {
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "basin": {
+        "color": "lighterblue",
+        "layer": 8,
+        "priority": 1,
+        "visible": true
+      },
+      "lagoon": {
+        "color": "lighterblue",
+        "layer": 2,
+        "priority": 1,
+        "visible": true
+      },
+      "moat": {
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "waterway": {
+      "river": {
+        "shouldFill": false,
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "stream": {
+        "shouldFill": false,
+        "color": "lighterblue",
+        "layer": 8,
+        "priority": 1,
+        "visible": true
+      },
+      "canal": {
+        "shouldFill": false,
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "ditch": {
+        "shouldFill": false,
+        "color": "lighterblue",
+        "layer": 8,
+        "priority": 1,
+        "visible": true
+      },
+      "dock": {
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "boatyard": {
+        "color": "lighterblue",
+        "layer": 9,
+        "priority": 1,
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "man_made": {
+      "bridge": {
+        "color": "bridgegrey",
+        "layer": 8,
+        "priority": 1,
+        "visible": true
+      },
+      "pier": {
+        "color": "lightconcretegrey",
+        "layer": 8,
+        "width": 2,
+        "priority": 1,
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "landuse": {
+      "commercial": {
+        "color": "rosepink",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "retail": {
+        "color": "rosepink",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "construction": {
+        "color": "constructiongreen",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "industrial": {
+        "color": "industrialpink",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "residential": {
+        "color": "concretegrey",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "allotments": {
+        "color": "lightgreen",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "farmland": {
+        "color": "farmersand",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "farmyard": {
+        "color": "farmersand",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "forest": {
+        "color": "forestgreen",
+        "layer": 6,
+        "priority": 1,
+        "visible": true
+      },
+      "meadow": {
+        "color": "grassgreen",
+        "layer": 6,
+        "priority": 1,
+        "visible": true
+      },
+      "orchard": {
+        "color": "darkerlightgreen",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "vineyard": {
+        "color": "cemeterygreen",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "cemetery":{
+        "color": "cemeterygreen",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "grass": {
+        "color": "grassgreen",
+        "layer": 6,
+        "priority": 1,
+        "visible": true
+      },
+      "landfill": {
+        "color": "fastfoodbrown",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "village_green": {
+        "color": "lightgreen",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "leisure": {
+      "garden": {
+        "color": "lightgreen",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "park": {
+        "color": "lightgreen",
+        "layer": 6,
+        "priority": 1,
+        "visible": true
+      },
+      "swimmingpool": {
+        "color": "lighterblue",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "aeroway": {
+      "aerodrome": {
+        "color": "almostinvisiblegrey",
+        "layer": 6,
+        "priority": 1,
+        "visible": true
+      },
+      "runway": {
+        "color": "grey",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "terminal": {
+        "color": "fastfoodbrown",
+        "layer": 7,
+        "priority": 1,
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "amenity": {
+      "grave_yard": {
+        "color": "cemeterygreen",
+        "layer": 5,
+        "priority": 1,
+        "visible": true
+      },
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    },
+    "building": {
+      "default": {
+        "fillColor": "lightergrey",
+        "borderColor": "lightgrey",
+        "innerFillColor": "concretegrey",
+        "layer": 7,
+        "priority": 1,
+        "visible": true
+      }
+    },
+    "railway": {
+      "rail": {
+        "shouldFill": false,
+        "layer": 7,
+        "dashed": true,
+        "priority": 1,
+        "visible": true
+      }
+    },
+    "default": {
+      "default": {
+        "color": "eveninvisiblergrey",
+        "layer": 10
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'BFST23Group17'
+include 'app'
+

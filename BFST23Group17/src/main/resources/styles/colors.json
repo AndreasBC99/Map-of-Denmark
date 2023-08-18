@@ -1,0 +1,269 @@
+{
+  "default": [
+    "#000000",
+    "#000000",
+    "#ffffff"
+  ],
+  "orange": [
+    "#e67e22",
+    "#ff6f00",
+    "#1981dd"
+  ],
+  "redorange": [
+    "#cd6133",
+    "#ff6f00",
+    "#329ecc"
+  ],
+  "farmersand": [
+    "#f5dcba",
+    "#ffea00",
+    "#0a2345"
+  ],
+  "sand": [
+    "#fff1ba",
+    "#ffea00",
+    "#000e45"
+  ],
+  "darkerorange": [
+    "#fcd6a4",
+    "#ff6f00",
+    "#03295b"
+  ],
+  "lightblue": [
+    "#34ace0",
+    "#0400ff",
+    "#cb531f"
+  ],
+  "blue": [
+    "#0092da",
+    "#0400ff",
+    "#ff6d25"
+  ],
+  "lighterblue": [
+    "#aad3df",
+    "#0400ff",
+    "#552c20"
+  ],
+  "darkblue": [
+    "#7781f7",
+    "#0400ff",
+    "#887e08"
+  ],
+  "darkerblue": [
+    "#2c3e50",
+    "#0400ff",
+    "#d3c1af"
+  ],
+  "turquise": [
+    "#78ada7",
+    "#0400ff",
+    "#875258"
+  ],
+  "almostinvisiblegrey": [
+    "#f3e4dd",
+    "#f3e4dd",
+    "#0c1b22"
+  ],
+  "eveninvisiblergrey": [
+    "#eeeeee",
+    "#000000",
+    "#111111"
+  ],
+  "grey": [
+    "#bdc3c7",
+    "#000000",
+    "#423c38"
+  ],
+  "darkgrey": [
+    "#999999",
+    "#000000",
+    "#666666"
+  ],
+  "lightgrey": [
+    "#cdc3bb",
+    "#000000",
+    "#323c44"
+  ],
+  "lightergrey": [
+    "#d9d0c9",
+    "#000000",
+    "#262f36"
+  ],
+  "concretegrey":[
+    "#e0dfdf",
+    "#000000",
+    "#1f2020"
+  ],
+  "lightconcretegrey": [
+    "#f2efe9",
+    "#000000",
+    "#0d1016"
+  ],
+  "cliffgrey": [
+    "#7f8c8d",
+    "#000000",
+    "#807372"
+  ],
+  "streetgrey": [
+    "#c6c5c5",
+    "#000000",
+    "#393a3a"
+  ],
+  "bridgegrey": [
+    "#b8b8b8",
+    "#000000",
+    "#474747"
+  ],
+  "parkinggrey": [
+    "#d5c5c4",
+    "#000000",
+    "#2a3a3b"
+  ],
+  "purple": [
+    "#ac39ac",
+    "#cc00ff",
+    "#53c653"
+  ],
+  "amethyst": [
+    "#94769b",
+    "#cc00ff",
+    "#6b8964"
+  ],
+  "rosepink": [
+    "#f5c7c2",
+    "#ff00d4",
+    "#0a383d"
+  ],
+  "industrialpink": [
+    "#ebdbe8",
+    "#ff00d4",
+    "#142417"
+  ],
+  "salmonpink": [
+    "#fa8173",
+    "#ff00d4",
+    "#057e8c"
+  ],
+  "lightgreen": [
+    "#c8d7ab",
+    "#1aff00",
+    "#372854"
+  ],
+  "lightlygreen": [
+    "#b8d4a7",
+    "#1aff00",
+    "#472b58"
+  ],
+  "darkerlightgreen": [
+    "#d6d99f",
+    "#1aff00",
+    "#292660"
+  ],
+  "cemeterygreen": [
+    "#a9cbaf",
+    "#1aff00",
+    "#563450"
+  ],
+  "forestgreen": [
+    "#add19e",
+    "#003806",
+    "#522e61"
+  ],
+  "grassgreen": [
+    "#cdebb0",
+    "#1aff00",
+    "#32144f"
+  ],
+  "farmergreen": [
+    "#eef0d5",
+    "#000000",
+    "#110f2a"
+  ],
+  "recreationgreen": [
+    "#dffce2",
+    "#1aff00",
+    "#20031d"
+  ],
+  "constructiongreen": [
+    "#c7c7b4",
+    "#1aff00",
+    "#38384b"
+  ],
+  "allotmentgreen": [
+    "#91b592",
+    "#1aff00",
+    "#6e4a6d"
+  ],
+  "pitchgreen": [
+    "#aae0cb",
+    "#1aff00",
+    "#551f34"
+  ],
+  "golfgreen": [
+    "#def6c0",
+    "#1aff00",
+    "#21093f"
+  ],
+  "golfdarkgreen": [
+    "#188920",
+    "#1aff00",
+    "#e776df"
+  ],
+  "parkgreen": [
+    "#c8facc",
+    "#1aff00",
+    "#370533"
+  ],
+  "playgroundgreen": [
+    "#9ddaa2",
+    "#1aff00",
+    "#62255d"
+  ],
+  "gardenlightgreen": [
+    "#a2ad95",
+    "#1aff00",
+    "#5d526a"
+  ],
+  "sportssharplightgreen": [
+    "#a9f5ae",
+    "#1aff00",
+    "#560a51"
+  ],
+  "lightyellow":[
+    "#f8fabf",
+    "#34e5eb",
+    "#070540"
+  ],
+  "yellowybrown": [
+    "#a88936",
+    "#ffea00",
+    "#5776c9"
+  ],
+  "fastfoodbrown": [
+    "#c77400",
+    "#ff0000",
+    "#388bff"
+  ],
+  "brightred": [
+    "#bd0f0f",
+    "#ff0000",
+    "#14f6f6"
+
+  ],
+  "lightlyred": [
+    "#e74c3c",
+    "#ff0000",
+    "#18b3c3"
+  ],
+
+  "white": [
+    "#ffffff",
+    "#ffffff",
+    "#000000"
+  ],
+  "creamwhite": [
+    "#ffffe5",
+    "#ffffff",
+    "#00001a"
+  ]
+}

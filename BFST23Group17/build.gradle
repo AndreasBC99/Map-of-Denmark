@@ -1,0 +1,89 @@
+plugins {
+    id 'application'
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+group 'dk.itu'
+version '1.0'
+
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    javafx {
+        version = "19"
+        modules = ['javafx.controls']
+    }
+
+    dependencies {
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+        // Google guava.
+        implementation 'com.google.guava:guava:30.1.1-jre'
+
+        // JavaFX
+        implementation 'org.openjfx:javafx-controls:19.0.0'
+        implementation 'org.openjfx:javafx-fxml:19.0.0'
+        implementation 'org.openjfx:javafx-base:19.0.0'
+
+
+        // ControlsFX
+        implementation 'org.controlsfx:controlsfx:11.1.2'
+
+        // OpenCSV - for data gathering
+        // implementation 'com.opencsv:opencsv:5.7.1'
+
+        // Wolt OSM PBF parser
+        implementation 'com.wolt.osm:parallelpbf:0.3.1'
+
+        // Jackson JSON parser
+        implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.2'
+
+        // Woodstox Stax2 - https://mvnrepository.com/artifact/org.codehaus.woodstox/stax2-api
+        implementation 'org.codehaus.woodstox:stax2-api:4.2.1'
+
+        // Woodstox Core - https://mvnrepository.com/artifact/com.fasterxml.woodstox/woodstox-core
+        implementation 'com.fasterxml.woodstox:woodstox-core:6.5.0'
+
+        implementation 'edu.princeton.cs:algs4:1.0.4'
+
+
+}
+
+application {
+    mainClass = 'dk.itu.App'
+    buildDir = "../build"
+}
+
+javafx{
+    version = "19"
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes 'Main-Class': 'dev.aandahl.App'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    exclude 'META-INF/NOTICE'
+    exclude 'META-INF/LICENSE'
+    duplicatesStrategy = 'exclude'
+    classifier = 'jfx'
+    destinationDirectory = file("$rootDir/my-jar")
+    archiveBaseName = 'app'
+}
+
+tasks.withType(JavaExec) {
+    jvmArgs = ['-Xms512m', '-Xmx8G']
+}
